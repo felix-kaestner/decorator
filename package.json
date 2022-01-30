@@ -102,8 +102,5 @@
   },
   "buildOptions": {
     "name": "Decorator"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   }
 }
