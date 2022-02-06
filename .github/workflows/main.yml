@@ -55,16 +55,7 @@ jobs:
         run: yarn test:coverage
 
       - name: Run Build 🚧
-        run: yarn build
-
-      - name: Create package ⚡
-        run: yarn pack
-
-      - name: Upload package 🔥
-        uses: actions/upload-artifact@v2
-        with:
-          name: package
-          path: '*.tgz'
+        run: yarn build:release
 
       - name: Create Release 🎉
         if: "github.event_name == 'push' && matrix.node-version == '16.x'"
