@@ -31,7 +31,7 @@ $ yarn add git+https://github.com/felix-kaestner/decorator
 
 ## Usage
 
-```ts
+```TypeScript
 import {sealed} from '@felix-kaestner/decorator'
 
 @sealed
@@ -50,7 +50,7 @@ class BugReport {
 
 Apply [Object.seal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal) on a class constructor and prototype with `@sealed`.
 
-```ts
+```TypeScript
 import {sealed} from '@felix-kaestner/decorator'
 
 @sealed
@@ -67,7 +67,7 @@ class BugReport {
 
 Apply [Object.freeze](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze) on a class constructor and prototype with `@immutable`.
 
-```ts
+```TypeScript
 import {immutable} from '@felix-kaestner/decorator'
 
 @immutable
@@ -84,7 +84,7 @@ class BugReport {
 
 Apply both [Object.seal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal) and [Object.freeze](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze) on a class constructor and prototype with `@final`.
 
-```ts
+```TypeScript
 import final from '@felix-kaestner/decorator'
 
 @final
