@@ -17,7 +17,7 @@
     </a>
 </p>
 
-## Installation
+## Install
 
 Install with `npm` or `yarn`:
 
@@ -29,12 +29,10 @@ $ npm i git+https://github.com/felix-kaestner/decorator
 $ yarn add git+https://github.com/felix-kaestner/decorator
 ```
 
-## Quickstart
+## Usage
 
-Apply [Object.seal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal) on a class constructor and prototype with `@sealed`.
-
-```typescript
-import {sealed} from 'decorator'
+```ts
+import {sealed} from '@felix-kaestner/decorator'
 
 @sealed
 class BugReport {
@@ -46,10 +44,31 @@ class BugReport {
 }
 ```
 
+## API
+
+### @sealed
+
+Apply [Object.seal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal) on a class constructor and prototype with `@sealed`.
+
+```ts
+import {sealed} from '@felix-kaestner/decorator'
+
+@sealed
+class BugReport {
+  title: string;
+
+  constructor(t: string) {
+    this.title = t
+  }
+}
+```
+
+### @immutable
+
 Apply [Object.freeze](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze) on a class constructor and prototype with `@immutable`.
 
-```typescript
-import {immutable} from 'decorator'
+```ts
+import {immutable} from '@felix-kaestner/decorator'
 
 @immutable
 class BugReport {
@@ -61,10 +80,12 @@ class BugReport {
 }
 ```
 
+### @final
+
 Apply both [Object.seal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal) and [Object.freeze](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze) on a class constructor and prototype with `@final`.
 
-```typescript
-import final from 'decorator'
+```ts
+import final from '@felix-kaestner/decorator'
 
 @final
 class BugReport {
