@@ -3,6 +3,9 @@
 <p align="center">
     <span>Decorator for ES6 classes.</span>
     <br><br>
+    <a href="https://app.codecov.io/gh/felix-kaestner/decorator/">
+        <img alt="Codecov" src="https://img.shields.io/codecov/c/github/felix-kaestner/decorator?color=29b6f6&style=flat-square&token=G0HFHGFM94">
+    </a>
     <a href="https://github.com/felix-kaestner/decorator/issues">
         <img alt="Issues" src="https://img.shields.io/github/issues/felix-kaestner/decorator?color=29b6f6&style=flat-square">
     </a>
