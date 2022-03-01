@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/felix-kaestner/decorator/compare/v1.0.0...v1.0.1) (2022-03-01)
+
+
+### Bug Fixes
+
+* **deps:** bump actions/github-script from 5.1.0 to 6 ([79a15dd](https://github.com/felix-kaestner/decorator/commit/79a15dd6e596c8e6309ee06ad50f42250b91ba32))
+* **deps:** bump actions/labeler from 3.0.2 to 3.1.0 ([0e8cdc8](https://github.com/felix-kaestner/decorator/commit/0e8cdc8d3322f82314f4a4948ebaa361f3d6a279))
+
 # 1.0.0 (2022-02-06)
 
 ### Bug Fixes
