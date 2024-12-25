@@ -102,12 +102,6 @@ class BugReport {
 
 This is equivalent to using both `@sealed` and `@immutable`.
 
-## Contribute
-
-All contributions in any form are welcome! 🙌  
-Just use the [Issue](.github/ISSUE_TEMPLATE) and [Pull Request](.github/PULL_REQUEST_TEMPLATE) templates and
-I will be happy to review your suggestions. 👍
-
 ---
 
 Released under the [MIT License](LICENSE).

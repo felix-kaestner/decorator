@@ -6,7 +6,24 @@
 
 ## Packages
 
-|  Package | Description |
-|  --- | --- |
-|  [decorator](./decorator.md) |  |
+<table><thead><tr><th>
 
+Package
+
+
+</th><th>
+
+Description
+
+
+</th></tr></thead>
+<tbody><tr><td>
+
+[@felix-kaestner/decorator](./decorator.md)
+
+
+</td><td>
+
+
+</td></tr>
+</tbody></table>
