@@ -45,9 +45,9 @@
     "format:fix": "prettier --write .",
     "api:extract": "api-extractor run --local --verbose",
     "api:document": "api-documenter markdown --input-folder temp --output-folder docs",
-    "api:git": "git add --renormalize types docs",
+    "api:git": "git add --renormalize docs",
     "docs": "npm-run-all build:types api:extract api:document api:git",
-    "clean": "rimraf types temp dist coverage"
+    "clean": "rimraf types coverage dist temp types"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6.1",
